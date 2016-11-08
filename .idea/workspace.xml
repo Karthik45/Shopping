@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2f615b4-d13f-455f-b873-b52779e6e749" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/core/Items.java" afterPath="$PROJECT_DIR$/src/main/java/core/Item.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Builder/ItemsBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/Builder/ItemsBuilder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/core/Ewallet.java" afterPath="$PROJECT_DIR$/src/main/java/core/Ewallet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/core/Shopping.java" afterPath="$PROJECT_DIR$/src/main/java/core/Shopping.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/core/ShoppingCart.java" afterPath="$PROJECT_DIR$/src/main/java/core/ShoppingCart.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestShopping.java" afterPath="$PROJECT_DIR$/src/test/java/TestShopping.java" />
     </list>
     <ignored path="Code_Assessment.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,8 +50,8 @@
       <file leaf-file-name="Ewallet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/core/Ewallet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="420">
+              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
               <folding>
                 <element signature="e#79#80#0" expanded="true" />
                 <element signature="e#113#114#0" expanded="true" />
@@ -77,21 +72,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Shopping.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Shopping.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/core/Shopping.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+            <state relative-caret-position="473">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemsBuilder.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ItemsBuilder.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Builder/ItemsBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="105">
+              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -130,9 +125,9 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/core/ShoppingCart.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Builder/ItemsBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/Ewallet.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/Shopping.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Builder/ItemsBuilder.java" />
       </list>
     </option>
   </component>
@@ -759,12 +754,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1478600293941</updated>
-      <workItem from="1478600297215" duration="2765000" />
+      <workItem from="1478600297215" duration="3903000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2765000" />
+    <option name="totallyTimeSpent" value="3903000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -812,14 +807,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -847,18 +834,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Builder/ItemsBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/core/Ewallet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="420">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
           <folding>
             <element signature="e#79#80#0" expanded="true" />
             <element signature="e#113#114#0" expanded="true" />
@@ -870,8 +849,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/core/Shopping.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        <state relative-caret-position="473">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Builder/ItemsBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
           <folding />
         </state>
       </provider>

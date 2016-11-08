@@ -6,7 +6,7 @@ import resources.ItemType;
 
 public class ItemsBuilder {
 
-    Item item = new Item();
+    Item item;
 
     public ItemsBuilder(){
         item.setItemType(ItemType.APPLE);
