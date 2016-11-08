@@ -3,7 +3,7 @@ package core;
 
 import resources.ItemType;
 
-public class Items {
+public class Item {
 
     public void setItemType(ItemType itemType) {
         this.itemType = itemType;
@@ -24,7 +24,7 @@ public class Items {
         return price;
     }
 
-    public Items(){}
+    public Item(){}
 
 
 }

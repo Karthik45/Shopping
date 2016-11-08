@@ -1,25 +1,30 @@
 package Builder;
 
 
-import core.Items;
+import core.Item;
 import resources.ItemType;
 
 public class ItemsBuilder {
 
-    Items items = new Items();
+    Item item = new Item();
+
+    public ItemsBuilder(){
+        item.setItemType(ItemType.APPLE);
+        item.setPrice(10.0);
+    }
 
     public ItemsBuilder withItems(ItemType itemType){
-        items.setItemType(itemType);
+        item.setItemType(itemType);
         return this;
     }
 
     public ItemsBuilder withPrice(double price){
-        items.setPrice(price);
+        item.setPrice(price);
         return this;
     }
 
-    public Items build(){
-        return items;
+    public Item build(){
+        return item;
     }
 
 
