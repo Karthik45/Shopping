@@ -9,30 +9,29 @@ public class Shopping {
     Ewallet ewallet;
 
     public Shopping(){
-        ewallet = new Ewallet();
         shoppingCart = new ShoppingCart();
+        ewallet = new Ewallet();
+        ewallet.topUpMoney(200.0);
     }
 
     public void addItemToCart(Item item, int quantity){ //This method will add the item into cart.
-        while(quantity > 0)
-        {
-            shoppingCart.cart.add(item); //In this we will insert item into list like if we have quantity as 2. it will insert item into cart two times.
-            quantity--;
-        }
+
+        shoppingCart.addItemToList(item,quantity);
 
     }
 
-    public void payMoney(){  // By using this method we will pay the bill by ewallet money.
+    public void payMoney()throws Exception{  // By using this method we will pay the bill by ewallet money.
 
         double total,balance;
         total = shoppingCart.calculateTotalPrice();
         balance = ewallet.getMoney();
         if(balance >= total){  //if we have sufficent money to pay our bills in E-wallet then we can pay.
             ewallet.deductMoney(total);
+            System.out.println("Payment Successful" );
+            shoppingCart.cart.clear();
         }
         else {   //Else we again it shows less amount in wallet again we have options like addMoneyToWallet() or restAmountPayThroughCash()
-            System.out.println("Less amount in the E-wallet!!! You only have:" + balance );
-
+            throw new Exception(String.format("Ur wallet have less balance"));
         }
 
     }

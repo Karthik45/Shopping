@@ -5,9 +5,7 @@ public class Ewallet {
 
     double money;
 
-    public Ewallet(){
-        this.money = 200.0;
-    }
+    public Ewallet(){}
 
     public Ewallet(double money){
         this.money = money;
