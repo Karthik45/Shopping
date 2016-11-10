@@ -89,5 +89,6 @@ public class TestShopping {
 
        shopping.payMoney();
 
+       Assert.assertEquals(shopping.shoppingCart.getNoOfItems(), 7);
    }
 }

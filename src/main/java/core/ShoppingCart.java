@@ -10,7 +10,7 @@ import java.util.List;
 public class ShoppingCart {
 
     private List<Item> cart,offerItems,finalCart;
-
+    int noOfItems;
 
 
     public List<Item> getCart() {
@@ -68,7 +68,11 @@ public class ShoppingCart {
     public List<Item> clubAllCarts(){
         finalCart.addAll(cart);
         finalCart.addAll(offerItems);
-        System.out.println(finalCart.size());
+        noOfItems = finalCart.size();
         return finalCart;
+    }
+
+    public int getNoOfItems(){
+        return noOfItems;
     }
 }

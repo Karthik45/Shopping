@@ -66,8 +66,8 @@
       <file leaf-file-name="TestShopping.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestShopping.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="82" column="63" selection-start-line="82" selection-start-column="63" selection-end-line="82" selection-end-column="63" />
+            <state relative-caret-position="562">
+              <caret line="91" column="48" selection-start-line="91" selection-start-column="48" selection-end-line="91" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -76,11 +76,11 @@
       <file leaf-file-name="Shopping.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/core/Shopping.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
               <folding>
-                <element signature="e#482#483#0" expanded="true" />
-                <element signature="e#537#538#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,9 +99,12 @@
       <file leaf-file-name="ShoppingCart.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/core/ShoppingCart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="70" column="43" selection-start-line="70" selection-start-column="43" selection-end-line="70" selection-end-column="43" />
-              <folding />
+            <state relative-caret-position="503">
+              <caret line="75" column="25" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
+              <folding>
+                <element signature="e#1726#1727#0" expanded="true" />
+                <element signature="e#1758#1759#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,9 +131,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Builder/ItemsBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/Item.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/Ewallet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/core/Shopping.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/ShoppingCart.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestShopping.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/Shopping.java" />
       </list>
     </option>
   </component>
@@ -862,16 +865,13 @@
       <option name="presentableId" value="Default" />
       <updated>1478600293941</updated>
       <workItem from="1478600297215" duration="11302000" />
-      <workItem from="1478692311496" duration="21326000" />
+      <workItem from="1478692311496" duration="22254000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="TestShopping - 2016.11.10 at 16h 58m 35s.xml">
       <configuration name="TestShopping" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestShopping_testShopping - 2016.11.10 at 15h 04m 26s.xml">
-      <configuration name="TestShopping.testShopping" configurationId="TestNG" />
     </history-entry>
     <history-entry file="TestShopping_testShopping1 - 2016.11.10 at 15h 26m 43s.xml">
       <configuration name="TestShopping.testShopping1" configurationId="TestNG" />
@@ -883,6 +883,9 @@
       <configuration name="TestShopping.testShopping2" configurationId="TestNG" />
     </history-entry>
     <history-entry file="TestShopping_testShoppingToCheckPromotion - 2016.11.10 at 18h 12m 24s.xml">
+      <configuration name="TestShopping.testShoppingToCheckPromotion" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestShopping_testShoppingToCheckPromotion - 2016.11.10 at 18h 28m 06s.xml">
       <configuration name="TestShopping.testShoppingToCheckPromotion" configurationId="TestNG" />
     </history-entry>
     <history-entry file="TestShopping_testShoppingWhichExceedSLimit - 2016.11.10 at 16h 55m 09s.xml">
@@ -899,11 +902,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32628000" />
+    <option name="totallyTimeSpent" value="33556000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1023,8 +1026,8 @@
         <state relative-caret-position="270">
           <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
           <folding>
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1041,7 +1044,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
-          <folding />
+          <folding>
+            <element signature="e#1726#1727#0" expanded="true" />
+            <element signature="e#1758#1759#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1084,29 +1090,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/Shopping.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/ShoppingCart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="503">
+          <caret line="75" column="25" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
           <folding>
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#1726#1727#0" expanded="true" />
+            <element signature="e#1758#1759#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/ShoppingCart.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/Shopping.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="70" column="43" selection-start-line="70" selection-start-column="43" selection-end-line="70" selection-end-column="43" />
-          <folding />
+        <state relative-caret-position="105">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding>
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestShopping.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="82" column="63" selection-start-line="82" selection-start-column="63" selection-end-line="82" selection-end-column="63" />
+        <state relative-caret-position="562">
+          <caret line="91" column="48" selection-start-line="91" selection-start-column="48" selection-end-line="91" selection-end-column="48" />
           <folding />
         </state>
       </provider>

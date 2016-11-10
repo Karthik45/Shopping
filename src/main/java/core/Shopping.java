@@ -5,7 +5,7 @@ public class Shopping {
 
     Item item;
     int quantity;
-    ShoppingCart shoppingCart;
+    public ShoppingCart shoppingCart;
     public Ewallet ewallet;
 
     public Shopping(double money){
