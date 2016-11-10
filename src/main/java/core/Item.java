@@ -5,8 +5,8 @@ import resources.ItemType;
 
 public class Item {
 
-    ItemType itemType;
-    Double price;
+    private ItemType itemType;
+    private Double price;
 
     public void setItemType(ItemType itemType) {
         this.itemType = itemType;
