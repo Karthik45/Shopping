@@ -11,8 +11,8 @@ public class TestShopping {
     Shopping shopping = new Shopping(500.0);
     Item item,item2;
 
-    @Test      //purchase for above 100
-    public void testShopping()throws Exception{
+    @Test
+    public void testShoppingForMoreThan()throws Exception{      //purchase for above 100
 
         item = new ItemsBuilder().withItems(ItemType.APPLE).withPrice(20.0).build();
         shopping.addItemToCart(item,10);
@@ -28,7 +28,7 @@ public class TestShopping {
    }
 
    @Test
-    public void testShopping1()throws Exception{
+    public void testShoppingForEqualTo()throws Exception{    //test for exactly equal to 100
 
        item = new ItemsBuilder().withItems(ItemType.APPLE).withPrice(20.0).build();
        shopping.addItemToCart(item,2);
@@ -42,7 +42,7 @@ public class TestShopping {
    }
 
    @Test
-    public void testShopping2()throws Exception{
+    public void testShoppingForLessThan()throws Exception{  //test for less than 100.
 
        item = new ItemsBuilder().withItems(ItemType.APPLE).withPrice(20.0).build();
        shopping.addItemToCart(item,1);
