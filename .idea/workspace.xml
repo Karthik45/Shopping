@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2f615b4-d13f-455f-b873-b52779e6e749" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestShopping.java" afterPath="$PROJECT_DIR$/src/test/java/TestShopping.java" />
     </list>
     <ignored path="Code_Assessment.iws" />
@@ -65,8 +64,8 @@
       <file leaf-file-name="TestShopping.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestShopping.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+            <state relative-caret-position="411">
+              <caret line="64" column="38" selection-start-line="64" selection-start-column="38" selection-end-line="64" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -338,8 +337,8 @@
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../project_minicabit/minicabit/new_ui-tests/build.gradle" />
   </component>
-  <component name="RunManager" selected="TestNG.TestShopping.testShopping2">
-    <configuration default="false" name="TestShopping.testShopping2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestShopping.testShoppingWhichExceedSLimit">
+    <configuration default="false" name="TestShopping.testShoppingWhichExceedSLimit" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Code_Assessment" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -347,7 +346,7 @@
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestShopping" />
-      <option name="METHOD_NAME" value="testShopping2" />
+      <option name="METHOD_NAME" value="testShoppingWhichExceedSLimit" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -782,11 +781,11 @@
       <method />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.TestShopping.testShopping2" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.TestShopping.testShoppingWhichExceedSLimit" />
     </list>
     <recent_temporary>
       <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.TestShopping.testShopping2" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.TestShopping.testShoppingWhichExceedSLimit" />
       </list>
     </recent_temporary>
   </component>
@@ -801,17 +800,11 @@
       <option name="presentableId" value="Default" />
       <updated>1478600293941</updated>
       <workItem from="1478600297215" duration="11302000" />
-      <workItem from="1478692311496" duration="16540000" />
+      <workItem from="1478692311496" duration="17115000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestShopping_testShopping - 2016.11.10 at 11h 22m 25s.xml">
-      <configuration name="TestShopping.testShopping" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestShopping_testShopping - 2016.11.10 at 11h 22m 34s.xml">
-      <configuration name="TestShopping.testShopping" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestShopping_testShopping - 2016.11.10 at 11h 26m 19s.xml">
       <configuration name="TestShopping.testShopping" configurationId="TestNG" />
     </history-entry>
@@ -836,9 +829,15 @@
     <history-entry file="TestShopping_testShopping2 - 2016.11.10 at 15h 27m 32s.xml">
       <configuration name="TestShopping.testShopping2" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestShopping_testShoppingWhichExceedSLimit - 2016.11.10 at 16h 55m 09s.xml">
+      <configuration name="TestShopping.testShoppingWhichExceedSLimit" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestShopping_testShoppingWhichExceedSLimit - 2016.11.10 at 16h 55m 31s.xml">
+      <configuration name="TestShopping.testShoppingWhichExceedSLimit" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27842000" />
+    <option name="totallyTimeSpent" value="28417000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -852,7 +851,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0015479876" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0030959751" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1044,8 +1043,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestShopping.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+        <state relative-caret-position="411">
+          <caret line="64" column="38" selection-start-line="64" selection-start-column="38" selection-end-line="64" selection-end-column="38" />
           <folding />
         </state>
       </provider>

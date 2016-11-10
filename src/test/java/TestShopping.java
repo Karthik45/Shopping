@@ -54,4 +54,18 @@ public class TestShopping {
 
        Assert.assertEquals(shopping.ewallet.getMoney(), 460.0 );
    }
+
+   @Test
+    public void testShoppingWhichExceedSLimit()throws Exception{
+
+       item = new ItemsBuilder().withItems(ItemType.APPLE).withPrice(20.0).build();
+       shopping.addItemToCart(item,30);
+
+       item2 = new ItemsBuilder().withItems(ItemType.NewsPaper).withPrice(5.0).build();
+       shopping.addItemToCart(item2,40);
+
+       shopping.payMoney();
+
+
+   }
 }
