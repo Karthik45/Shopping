@@ -3,9 +3,11 @@ package core;
 
 public class Ewallet {
 
-    private double money;
+    private double money,discountPercent;
 
-    public Ewallet(){}
+    public Ewallet(){
+         discountPercent = 5.0;
+    }
 
 //    public Ewallet(double money){
 //        this.money = money;
@@ -15,21 +17,17 @@ public class Ewallet {
         return money;
     }
 
-    private void setMoney(double money) { //This will set the money in our wallet.
-        this.money = money;
-    }
-
     public void topUpMoney(double addmoney) {  //This will add money in to our E-wallet
 
-        setMoney(money+addmoney);
+        money = money+addmoney;
 
     }
     public void deductMoney(double dedmoney){  //This will subtract money from out E-wallet
 
         if(dedmoney >=100){
-            dedmoney = dedmoney -((5*dedmoney)/100);
+            dedmoney = dedmoney -((discountPercent*dedmoney)/100);
         }
-        setMoney(money-dedmoney);
+       money = money-dedmoney;
     }
     public boolean checkCustomerCanPay(double cost){
         return money<cost ? false : true ;

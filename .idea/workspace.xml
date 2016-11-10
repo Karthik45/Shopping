@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2f615b4-d13f-455f-b873-b52779e6e749" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/core/Shopping.class" afterPath="$PROJECT_DIR$/target/classes/core/Shopping.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/core/ShoppingCart.class" afterPath="$PROJECT_DIR$/target/classes/core/ShoppingCart.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestShopping.class" afterPath="$PROJECT_DIR$/target/test-classes/TestShopping.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/core/Ewallet.java" afterPath="$PROJECT_DIR$/src/main/java/core/Ewallet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/core/Item.java" afterPath="$PROJECT_DIR$/src/main/java/core/Item.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/core/Shopping.java" afterPath="$PROJECT_DIR$/src/main/java/core/Shopping.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/core/ShoppingCart.java" afterPath="$PROJECT_DIR$/src/main/java/core/ShoppingCart.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestShopping.java" afterPath="$PROJECT_DIR$/src/test/java/TestShopping.java" />
     </list>
     <ignored path="Code_Assessment.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,19 +47,21 @@
       <file leaf-file-name="Ewallet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/core/Ewallet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+            <state relative-caret-position="285">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
               <folding>
-                <element signature="e#195#196#0" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#789#790#0" expanded="true" />
-                <element signature="e#838#839#0" expanded="true" />
+                <element signature="e#103#104#0" expanded="true" />
+                <element signature="e#141#142#0" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#733#734#0" expanded="true" />
+                <element signature="e#782#783#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestShopping.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestShopping.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestShopping.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -77,10 +71,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Shopping.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Shopping.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/core/Shopping.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
+            <state relative-caret-position="465">
               <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="e#644#645#0" expanded="true" />
@@ -131,10 +125,10 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/Builder/ItemsBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/Item.java" />
-        <option value="$PROJECT_DIR$/src/main/java/core/Ewallet.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestShopping.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/Shopping.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/ShoppingCart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/Ewallet.java" />
       </list>
     </option>
   </component>
@@ -341,7 +335,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../project_minicabit/minicabit/new_ui-tests/build.gradle" />
   </component>
   <component name="RunManager" selected="TestNG.TestShopping.testShopping">
     <configuration default="false" name="TestShopping.testShopping" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
@@ -806,7 +800,7 @@
       <option name="presentableId" value="Default" />
       <updated>1478600293941</updated>
       <workItem from="1478600297215" duration="11302000" />
-      <workItem from="1478692311496" duration="10618000" />
+      <workItem from="1478692311496" duration="13646000" />
     </task>
     <servers />
   </component>
@@ -843,7 +837,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21920000" />
+    <option name="totallyTimeSpent" value="24948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -857,7 +851,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.029411765" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.029411765" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -944,10 +938,12 @@
         <state relative-caret-position="105">
           <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding>
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#103#104#0" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1011,30 +1007,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/Ewallet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding>
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/Shopping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/core/ShoppingCart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1048,6 +1020,32 @@
         <state relative-caret-position="30">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/Ewallet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding>
+            <element signature="e#103#104#0" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/Shopping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
