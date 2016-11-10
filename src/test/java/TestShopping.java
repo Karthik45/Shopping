@@ -8,12 +8,13 @@ import resources.ItemType;
 public class TestShopping {
 
 
-    Shopping shopping = new Shopping(500.0);
-    Item item,item2;
+
+
 
     @Test
-    public void testShoppingForMoreThan()throws Exception{      //purchase for above 100
-
+    public void testShoppingForMoreThan()throws Exception{
+        Shopping shopping = new Shopping(500.0);//purchase for above 100
+        Item item,item2;
         item = new ItemsBuilder().withItems(ItemType.APPLE).withPrice(20.0).build();
         shopping.addItemToCart(item,10);
 
@@ -29,7 +30,8 @@ public class TestShopping {
 
    @Test
     public void testShoppingForEqualTo()throws Exception{    //test for exactly equal to 100
-
+       Shopping shopping = new Shopping(500.0);//purchase for above 100
+       Item item,item2;
        item = new ItemsBuilder().withItems(ItemType.APPLE).withPrice(20.0).build();
        shopping.addItemToCart(item,2);
 
@@ -43,7 +45,8 @@ public class TestShopping {
 
    @Test
     public void testShoppingForLessThan()throws Exception{  //test for less than 100.
-
+       Shopping shopping = new Shopping(500.0);//purchase for above 100
+       Item item,item2;
        item = new ItemsBuilder().withItems(ItemType.APPLE).withPrice(20.0).build();
        shopping.addItemToCart(item,1);
 
@@ -57,15 +60,22 @@ public class TestShopping {
 
    @Test
     public void testShoppingWhichExceedSLimit()throws Exception{
+       Shopping shopping = new Shopping(500.0);//purchase for above 100
+       Item item,item2;
+    try {
+        item = new ItemsBuilder().withItems(ItemType.APPLE).withPrice(20.0).build();
+        shopping.addItemToCart(item, 30);
 
-       item = new ItemsBuilder().withItems(ItemType.APPLE).withPrice(20.0).build();
-       shopping.addItemToCart(item,30);
+        item2 = new ItemsBuilder().withItems(ItemType.NewsPaper).withPrice(5.0).build();
+        shopping.addItemToCart(item2, 40);
 
-       item2 = new ItemsBuilder().withItems(ItemType.NewsPaper).withPrice(5.0).build();
-       shopping.addItemToCart(item2,40);
+        shopping.payMoney();
+       }
+       catch (Exception e)
+       {
+           System.out.println(e);
 
-       shopping.payMoney();
-
+       }
 
    }
 }
