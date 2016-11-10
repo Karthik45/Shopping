@@ -39,16 +39,24 @@ public class ShoppingCart {
     }
 
     public void addItemToList(Item item,int quantity){
+
+        if(item.getItemType().equals(ItemType.Milk)){
+            offerItems(item,quantity/2);
+        }
+
         while(quantity > 0)
         {
             cart.add(item); //In this we will insert item into list like if we have quantity as 2. it will insert item into cart two times.
             quantity--;
         }
+
     }
+
 
     public void shoppingDone(){
         cart.clear();
         offerItems.clear();
+        finalCart.clear();
     }
 
     public void offerItems(Item item,int quantity) {
@@ -60,7 +68,7 @@ public class ShoppingCart {
     public List<Item> clubAllCarts(){
         finalCart.addAll(cart);
         finalCart.addAll(offerItems);
-
+        System.out.println(finalCart.size());
         return finalCart;
     }
 }

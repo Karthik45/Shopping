@@ -14,12 +14,10 @@ public class Shopping {
         ewallet.topUpMoney(money);
     }
 
-    public void addItemToCart(Item item, int quantity){ //This method will add the item into cart.
-        if(item.getItemType().equals("Milk")){
-        shoppingCart.addItemToList(item,quantity);
-        shoppingCart.offerItems(item,quantity/2);}
-        else
-            shoppingCart.addItemToList(item,quantity);
+    public void addItemToCart(Item item, int quantity) { //This method will add the item into cart.
+
+        shoppingCart.addItemToList(item, quantity);
+
     }
     private double calculatePrice(){
       return shoppingCart.calculateTotalPrice();

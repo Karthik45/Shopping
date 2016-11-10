@@ -12,8 +12,8 @@ public class TestShopping {
 
 
     @Test
-    public void testShoppingForMoreThan()throws Exception{
-        Shopping shopping = new Shopping(500.0);//purchase for above 100
+    public void testShoppingForMoreThan()throws Exception{   //purchase for above 100
+        Shopping shopping = new Shopping(500.0);
         Item item,item2;
         item = new ItemsBuilder().withItems(ItemType.APPLE).withPrice(20.0).build();
         shopping.addItemToCart(item,10);
@@ -30,7 +30,7 @@ public class TestShopping {
 
    @Test
     public void testShoppingForEqualTo()throws Exception{    //test for exactly equal to 100
-       Shopping shopping = new Shopping(500.0);//purchase for above 100
+       Shopping shopping = new Shopping(500.0);
        Item item,item2;
        item = new ItemsBuilder().withItems(ItemType.APPLE).withPrice(20.0).build();
        shopping.addItemToCart(item,2);
@@ -45,7 +45,7 @@ public class TestShopping {
 
    @Test
     public void testShoppingForLessThan()throws Exception{  //test for less than 100.
-       Shopping shopping = new Shopping(500.0);//purchase for above 100
+       Shopping shopping = new Shopping(500.0);
        Item item,item2;
        item = new ItemsBuilder().withItems(ItemType.APPLE).withPrice(20.0).build();
        shopping.addItemToCart(item,1);
@@ -59,8 +59,8 @@ public class TestShopping {
    }
 
    @Test
-    public void testShoppingWhichExceedSLimit()throws Exception{
-       Shopping shopping = new Shopping(500.0);//purchase for above 100
+    public void testShoppingWhichExceedSLimit(){    //Test which exceeds Limit
+       Shopping shopping = new Shopping(500.0);
        Item item,item2;
     try {
         item = new ItemsBuilder().withItems(ItemType.APPLE).withPrice(20.0).build();
@@ -76,6 +76,18 @@ public class TestShopping {
            System.out.println(e);
 
        }
+
+   }
+
+   @Test
+    public void testShoppingToCheckPromotion()throws Exception{
+       Shopping shopping = new Shopping(500.0);
+       Item item,item2;
+
+       item = new ItemsBuilder().withItems(ItemType.Milk).withPrice(20.0).build();
+       shopping.addItemToCart(item, 5 );
+
+       shopping.payMoney();
 
    }
 }
