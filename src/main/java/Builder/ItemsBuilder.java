@@ -10,7 +10,7 @@ public class ItemsBuilder {
 
     public ItemsBuilder(){
         item.setItemType(ItemType.APPLE);
-        item.setPrice(10.0);
+        item.setPrice(0.0);
     }
 
     public ItemsBuilder withItems(ItemType itemType){

@@ -1,6 +1,7 @@
 package core;
 
 
+import Builder.ItemsBuilder;
 import resources.ItemType;
 
 import java.util.ArrayList;
@@ -34,14 +35,20 @@ public class ShoppingCart {
     }
 
     public void addItemToList(Item item,int quantity){
-        while(quantity > 0)
+
+        for(int i=quantity;i>0;i--)
         {
             cart.add(item); //In this we will insert item into list like if we have quantity as 2. it will insert item into cart two times.
-            quantity--;
+        }
+
+        if(item.getItemType().equals(ItemType.Milk)){
+            int freeQuantity  = quantity/2;
+            addFreeItemToCart(item.itemType, freeQuantity);
         }
 
     }
     public void shoppingDone(){
+
         cart.clear();
     }
 
@@ -53,22 +60,21 @@ public class ShoppingCart {
 //        return finalCart;
 //    }
 
-
     public int getNoOfItems(){
         noOfItems = cart.size();
         return noOfItems;
     }
 
-    public void applyOffer(){
+    public void addFreeItemToCart(ItemType itemType, int quantity) {
 
-            int frequency;
-            frequency = Collections.frequency(cart, item.getItemType().equals(ItemType.Milk));
 
-            frequency = frequency/2;
 
-            while(frequency > 0){
-                cart.add(item);
-            }
+        while (quantity > 0) {
+            Item freeItem = new ItemsBuilder().withItems(itemType).withOffer(true).build();
+            cart.add(freeItem);
+            quantity --;
+        }
+
     }
 }
 

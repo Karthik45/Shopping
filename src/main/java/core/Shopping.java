@@ -29,8 +29,10 @@ public class Shopping {
         total = calculatePrice();
 
         if(ewallet.checkCustomerCanPay(total)){  //if we have sufficent money to pay our bills in E-wallet then we can pay.
+            System.out.println(total);
             ewallet.deductMoney(total);
             System.out.println("Payment Successful" );
+
             shoppingCart.shoppingDone();
         }
         else {   //Else we again it shows less amount in wallet again we have options like addMoneyToWallet() or restAmountPayThroughCash()

@@ -85,11 +85,13 @@ public class TestShopping {
 
        Item item;
 
-       item = new ItemsBuilder().withItems(ItemType.Milk).withPrice(20.0).withOffer(true).build();
+       item = new ItemsBuilder().withItems(ItemType.Milk).withPrice(20.0).build();
        shopping.addItemToCart(item, 5 );
+
+       Assert.assertEquals(shopping.shoppingCart.getNoOfItems(), 7);
 
        shopping.payMoney();
 
-       Assert.assertEquals(shopping.shoppingCart.getNoOfItems(), 7);
+
    }
 }
