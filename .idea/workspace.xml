@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2f615b4-d13f-455f-b873-b52779e6e749" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Builder/ItemsBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/Builder/ItemsBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/core/Item.java" afterPath="$PROJECT_DIR$/src/main/java/core/Item.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/core/Shopping.java" afterPath="$PROJECT_DIR$/src/main/java/core/Shopping.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/core/ShoppingCart.java" afterPath="$PROJECT_DIR$/src/main/java/core/ShoppingCart.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestShopping.java" afterPath="$PROJECT_DIR$/src/test/java/TestShopping.java" />
@@ -29,45 +31,23 @@
       <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/core/Item.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ewallet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/core/Ewallet.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
               <folding>
-                <element signature="e#103#104#0" expanded="true" />
-                <element signature="e#141#142#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#733#734#0" expanded="true" />
-                <element signature="e#782#783#0" expanded="true" />
+                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestShopping.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestShopping.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestShopping.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="91" column="48" selection-start-line="91" selection-start-column="48" selection-end-line="91" selection-end-column="48" />
+            <state relative-caret-position="217">
+              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -76,11 +56,11 @@
       <file leaf-file-name="Shopping.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/core/Shopping.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            <state relative-caret-position="142">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
               <folding>
-                <element signature="e#489#490#0" expanded="true" />
-                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,21 +69,30 @@
       <file leaf-file-name="ItemsBuilder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Builder/ItemsBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="375">
+              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShoppingCart.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ItemType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/resources/ItemType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShoppingCart.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/core/ShoppingCart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="75" column="25" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
+            <state relative-caret-position="457">
+              <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
               <folding>
-                <element signature="e#1726#1727#0" expanded="true" />
-                <element signature="e#1758#1759#0" expanded="true" />
+                <element signature="e#1079#1118#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -128,12 +117,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/Builder/ItemsBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/core/Item.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/Ewallet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/core/ShoppingCart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/Item.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Builder/ItemsBuilder.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestShopping.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/Shopping.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/ShoppingCart.java" />
       </list>
     </option>
   </component>
@@ -865,44 +854,44 @@
       <option name="presentableId" value="Default" />
       <updated>1478600293941</updated>
       <workItem from="1478600297215" duration="11302000" />
-      <workItem from="1478692311496" duration="22254000" />
+      <workItem from="1478692311496" duration="37763000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestShopping - 2016.11.10 at 16h 58m 35s.xml">
-      <configuration name="TestShopping" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestShopping_testShopping1 - 2016.11.10 at 15h 26m 43s.xml">
-      <configuration name="TestShopping.testShopping1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestShopping_testShopping2 - 2016.11.10 at 15h 26m 56s.xml">
-      <configuration name="TestShopping.testShopping2" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestShopping_testShopping2 - 2016.11.10 at 15h 27m 32s.xml">
-      <configuration name="TestShopping.testShopping2" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestShopping_testShoppingToCheckPromotion - 2016.11.10 at 18h 12m 24s.xml">
       <configuration name="TestShopping.testShoppingToCheckPromotion" configurationId="TestNG" />
     </history-entry>
     <history-entry file="TestShopping_testShoppingToCheckPromotion - 2016.11.10 at 18h 28m 06s.xml">
       <configuration name="TestShopping.testShoppingToCheckPromotion" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestShopping_testShoppingWhichExceedSLimit - 2016.11.10 at 16h 55m 09s.xml">
-      <configuration name="TestShopping.testShoppingWhichExceedSLimit" configurationId="TestNG" />
+    <history-entry file="TestShopping_testShoppingToCheckPromotion - 2016.11.11 at 10h 57m 59s.xml">
+      <configuration name="TestShopping.testShoppingToCheckPromotion" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestShopping_testShoppingWhichExceedSLimit - 2016.11.10 at 16h 55m 31s.xml">
-      <configuration name="TestShopping.testShoppingWhichExceedSLimit" configurationId="TestNG" />
+    <history-entry file="TestShopping_testShoppingToCheckPromotion - 2016.11.11 at 11h 02m 35s.xml">
+      <configuration name="TestShopping.testShoppingToCheckPromotion" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestShopping_testShoppingWhichExceedSLimit - 2016.11.10 at 17h 12m 15s.xml">
-      <configuration name="TestShopping.testShoppingWhichExceedSLimit" configurationId="TestNG" />
+    <history-entry file="TestShopping_testShoppingToCheckPromotion - 2016.11.11 at 11h 08m 55s.xml">
+      <configuration name="TestShopping.testShoppingToCheckPromotion" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestShopping_testShoppingToCheckPromotion - 2016.11.11 at 11h 21m 29s.xml">
+      <configuration name="TestShopping.testShoppingToCheckPromotion" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestShopping_testShoppingToCheckPromotion - 2016.11.11 at 11h 23m 01s.xml">
+      <configuration name="TestShopping.testShoppingToCheckPromotion" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestShopping_testShoppingToCheckPromotion - 2016.11.11 at 11h 24m 00s.xml">
+      <configuration name="TestShopping.testShoppingToCheckPromotion" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestShopping_testShoppingToCheckPromotion - 2016.11.11 at 11h 44m 59s.xml">
+      <configuration name="TestShopping.testShoppingToCheckPromotion" configurationId="TestNG" />
     </history-entry>
     <history-entry file="TestShopping_testShoppingWhichExceedSLimit - 2016.11.10 at 18h 12m 00s.xml">
       <configuration name="TestShopping.testShoppingWhichExceedSLimit" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33556000" />
+    <option name="totallyTimeSpent" value="49065000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -916,14 +905,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24940239" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940239" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940239" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -974,7 +963,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -986,7 +977,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1003,12 +999,12 @@
         <state relative-caret-position="105">
           <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding>
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#103#104#0" expanded="false" />
+            <element signature="e#141#142#0" expanded="false" />
+            <element signature="e#248#249#0" expanded="false" />
+            <element signature="e#316#317#0" expanded="false" />
+            <element signature="e#733#734#0" expanded="false" />
+            <element signature="e#782#783#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1026,8 +1022,8 @@
         <state relative-caret-position="270">
           <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
           <folding>
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1045,8 +1041,22 @@
         <state relative-caret-position="555">
           <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
           <folding>
-            <element signature="e#1726#1727#0" expanded="true" />
-            <element signature="e#1758#1759#0" expanded="true" />
+            <element signature="e#1079#1118#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/Ewallet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding>
+            <element signature="e#103#104#0" expanded="false" />
+            <element signature="e#141#142#0" expanded="false" />
+            <element signature="e#248#249#0" expanded="false" />
+            <element signature="e#316#317#0" expanded="false" />
+            <element signature="e#733#734#0" expanded="false" />
+            <element signature="e#782#783#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1059,64 +1069,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/Item.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/resources/ItemType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        <state relative-caret-position="45">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/Ewallet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding>
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Builder/ItemsBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="375">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/ShoppingCart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="75" column="25" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
-          <folding>
-            <element signature="e#1726#1727#0" expanded="true" />
-            <element signature="e#1758#1759#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/Shopping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding>
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestShopping.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="91" column="48" selection-start-line="91" selection-start-column="48" selection-end-line="91" selection-end-column="48" />
+        <state relative-caret-position="217">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/Shopping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding>
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding>
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/ShoppingCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+          <folding>
+            <element signature="e#1079#1118#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

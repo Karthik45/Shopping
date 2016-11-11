@@ -22,6 +22,10 @@ public class ItemsBuilder {
         item.setPrice(price);
         return this;
     }
+    public ItemsBuilder withOffer(boolean val){
+        item.setFree(val);
+        return this;
+    }
 
     public Item build(){
         return item;

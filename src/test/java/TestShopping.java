@@ -82,9 +82,10 @@ public class TestShopping {
    @Test
     public void testShoppingToCheckPromotion()throws Exception{
        Shopping shopping = new Shopping(500.0);
-       Item item,item2;
 
-       item = new ItemsBuilder().withItems(ItemType.Milk).withPrice(20.0).build();
+       Item item;
+
+       item = new ItemsBuilder().withItems(ItemType.Milk).withPrice(20.0).withOffer(true).build();
        shopping.addItemToCart(item, 5 );
 
        shopping.payMoney();

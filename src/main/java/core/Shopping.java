@@ -1,10 +1,10 @@
 package core;
 
 
+import resources.ItemType;
+
 public class Shopping {
 
-    Item item;
-    int quantity;
     public ShoppingCart shoppingCart;
     public Ewallet ewallet;
 

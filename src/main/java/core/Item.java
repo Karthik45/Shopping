@@ -7,6 +7,15 @@ public class Item {
 
     private ItemType itemType;
     private Double price;
+    boolean isFree;
+
+    public void setFree(boolean free) {
+        isFree = free;
+    }
+
+    public boolean isFree() {
+        return isFree;
+    }
 
     public void setItemType(ItemType itemType) {
         this.itemType = itemType;
@@ -25,6 +34,5 @@ public class Item {
     }
 
     public Item(){}
-
 
 }
