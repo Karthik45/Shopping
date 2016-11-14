@@ -1,3 +1,9 @@
 # Created by .ignore support plugin (hsz.mobi)
 .gitignore
-src/main/resources/
+ .idea
+ /target/
+ Code_Assessment.iml
+ src/main/resources
+ README.md
+ Shopping.iml
+  
