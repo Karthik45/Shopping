@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2f615b4-d13f-455f-b873-b52779e6e749" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/core/ShoppingCart.java" afterPath="$PROJECT_DIR$/src/main/java/core/ShoppingCart.java" />
-    </list>
+    <list default="true" id="f2f615b4-d13f-455f-b873-b52779e6e749" name="Default" comment="" />
     <ignored path="Code_Assessment.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -971,7 +967,7 @@
       <updated>1478600293941</updated>
       <workItem from="1478600297215" duration="11302000" />
       <workItem from="1478692311496" duration="39686000" />
-      <workItem from="1478886015520" duration="7257000" />
+      <workItem from="1478886015520" duration="7329000" />
     </task>
     <servers />
   </component>
@@ -1008,7 +1004,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58245000" />
+    <option name="totallyTimeSpent" value="58317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
