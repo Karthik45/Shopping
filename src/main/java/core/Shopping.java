@@ -14,9 +14,9 @@ public class Shopping {
         ewallet.topUpMoney(money);
     }
 
-    public void addItemToCart(Item item, int quantity) { //This method will add the item into cart.
+    public void addItemToCart(ItemType itemType, int quantity, double price) { //This method will add the item into cart.
 
-        shoppingCart.addItemToList(item, quantity);
+        shoppingCart.addItemToList(itemType, quantity, price);
 
     }
     private double calculatePrice(){

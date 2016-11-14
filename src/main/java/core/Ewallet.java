@@ -9,10 +9,6 @@ public class Ewallet {
          discountPercent = 5.0;
     }
 
-//    public Ewallet(double money){
-//        this.money = money;
-//    }
-
     public double getMoney() { //This will get the money in our wallet
         return money;
     }
@@ -22,6 +18,7 @@ public class Ewallet {
         money = money+addmoney;
 
     }
+
     public void deductMoney(double dedmoney){  //This will subtract money from out E-wallet
 
         if(dedmoney >=100){
@@ -29,6 +26,7 @@ public class Ewallet {
         }
        money = money-dedmoney;
     }
+
     public boolean checkCustomerCanPay(double cost){
         return money<cost ? false : true ;
     }
