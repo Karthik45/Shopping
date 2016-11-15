@@ -28,13 +28,14 @@ public class Ewallet {
         return money<cost ? false : true ;
     }
 
-    public double getDiscount(double money){
+    private double getDiscount(double money) {
 
-        if(money >=100){
-            return (money*discountPercent)/100;
+        if (money >= 100) {
+            return (money * discountPercent) / 100;
         }
         else
             return 0.0;
+
     }
 
 }

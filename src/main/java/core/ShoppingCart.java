@@ -33,16 +33,12 @@ public class ShoppingCart {
 
     public void addItemToList(ItemType itemType, int quantity, double price) {
 
+        addFreeItemToCart(itemType,quantity);
+
         for (int i = quantity; i > 0; i--) {
             Item item = new ItemsBuilder().withItems(itemType).withPrice(price).build();
             cart.add(item); //In this we will insert item into list like if we have quantity as 2. it will insert item into cart two times.
         }
-
-        if (itemType.equals(ItemType.Milk)) {
-            int freeQuantity = quantity / 2;
-            addFreeItemToCart(itemType, freeQuantity);
-        }
-
     }
 
     public void shoppingDone() {
@@ -53,13 +49,15 @@ public class ShoppingCart {
         return cart.size();
     }
 
-    public void addFreeItemToCart(ItemType itemType, int quantity) {
+    private void addFreeItemToCart(ItemType itemType, int quantity) {
 
-        for (int i = quantity; i > 0; i--) {
+        if(itemType.equals(ItemType.Milk)){
+        int freeQuantity = quantity / 2;
+        for (int i = freeQuantity; i > 0; i--) {
             Item freeItem = new ItemsBuilder().withItems(itemType).withOffer(true).build();
             cart.add(freeItem);
-
         }
+      }
     }
 }
 
