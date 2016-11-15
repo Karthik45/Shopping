@@ -15,7 +15,7 @@ public class Shopping {
     }
 
     public void addItemToCart(ItemType itemType, int quantity, double price) { //This method will add the item into cart.
-
+        if(quantity > 0)
         shoppingCart.addItemToList(itemType, quantity, price);
 
     }

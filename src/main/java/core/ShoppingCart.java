@@ -27,6 +27,7 @@ public class ShoppingCart {
     public double calculateTotalPrice() {//This calculate the total price of the selected item.
         double total = 0.0;
         for (Item item : getCart()) {
+            if(!item.isFree())
             total = total + item.getPrice();
         }
         return total;

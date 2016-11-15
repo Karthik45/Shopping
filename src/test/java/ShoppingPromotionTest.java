@@ -16,6 +16,8 @@ public class ShoppingPromotionTest {
 
         shopping.payMoney();
 
+        Assert.assertEquals(shopping.ewallet.getMoney(), 425.0);
+
     }
 
     @Test
@@ -29,6 +31,8 @@ public class ShoppingPromotionTest {
 
         shopping.payMoney();
 
+        Assert.assertEquals(shopping.ewallet.getMoney(), 440.0);
+
     }
 
     @Test
@@ -41,6 +45,9 @@ public class ShoppingPromotionTest {
         Assert.assertEquals(shopping.shoppingCart.getNoOfItems(), 1);
 
         shopping.payMoney();
+
+        Assert.assertEquals(shopping.ewallet.getMoney(), 485.0);
+
     }
 }
 
