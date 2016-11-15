@@ -5,7 +5,7 @@ import resources.ItemType;
 
 public class Item {
 
-    public ItemType itemType;
+    private ItemType itemType;
     private Double price;
     boolean isFree;
 

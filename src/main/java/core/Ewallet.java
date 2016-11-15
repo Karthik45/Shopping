@@ -21,14 +21,20 @@ public class Ewallet {
 
     public void deductMoney(double dedmoney){  //This will subtract money from out E-wallet
 
-        if(dedmoney >=100){
-            dedmoney = dedmoney -((discountPercent*dedmoney)/100);
-        }
-       money = money-dedmoney;
+        money = money-(dedmoney - getDiscount(dedmoney));
     }
 
     public boolean checkCustomerCanPay(double cost){
         return money<cost ? false : true ;
+    }
+
+    public double getDiscount(double money){
+
+        if(money >=100){
+            return (money*discountPercent)/100;
+        }
+        else
+            return 0.0;
     }
 
 }
