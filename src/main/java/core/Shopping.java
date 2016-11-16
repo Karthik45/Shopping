@@ -14,20 +14,20 @@ public class Shopping {
         ewallet.topUpMoney(money);
     }
 
-    public void addItemToCart(ItemType itemType, int quantity, double price) { //This method will add the item into cart.
+    public void addItemToCart(ItemType itemType, int quantity, double price)throws Exception { //This method will add the item into cart.
         if(quantity > 0) {
             shoppingCart.addItemToList(itemType, quantity, price);
         }
         else
-            System.out.println("quantity should be more than zero");
+            throw new Exception(String.format("Item quantity should be more than zero"));
     }
 
-    public void removeItemFromCart(ItemType itemType,int quantity) {
-        if(quantity >0){
-        shoppingCart.removeItemFromList(itemType,quantity);
-        }
-        else
-            System.out.println("quantity for removal should be more than zero");
+    public void removeItemFromCart(ItemType itemType,int quantity)throws Exception {
+        if (quantity > 0) {
+                shoppingCart.removeItemFromList(itemType, quantity);
+            }
+           else
+               throw new Exception(String.format("Removal Items should be more than zero"));
     }
 
     private double calculatePrice(){

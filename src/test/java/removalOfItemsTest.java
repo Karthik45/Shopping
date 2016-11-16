@@ -59,4 +59,17 @@ public class removalOfItemsTest {
 
         Assert.assertEquals(shopping.ewallet.getMoney(),348.0);
     }
+
+    @Test
+    public void whenRemovalQuantityZero()throws Exception{//when removal quantity is zero
+        Shopping shopping = new Shopping(500.0);
+
+        shopping.addItemToCart(ItemType.APPLE,10,20.0);
+
+        shopping.addItemToCart(ItemType.Milk,4,15.0);
+
+        shopping.removeItemFromCart(ItemType.APPLE,0);
+
+        shopping.payMoney();
+    }
 }
