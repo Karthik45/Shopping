@@ -100,7 +100,6 @@ public class ShoppingCart {
 
     private void removeItems(ItemType itemType, int quantity, String type) {
         List<Item> tempCart = new ArrayList<Item>();
-//        tempCart.addAll(cart);
         if (type.equals("paid")) {
             for (Item item : cart) {
                 if (item.getItemType().equals(itemType) && quantity > 0) {
