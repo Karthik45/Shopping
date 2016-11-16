@@ -13,10 +13,11 @@ public class EwalletPromotionTest {
 
         shopping.addItemToCart(ItemType.Milk,4,15.0);
 
+        Assert.assertEquals(shopping.shoppingCart.getNoOfItems(), 16);
+
         shopping.payMoney();
 
         Assert.assertEquals(shopping.ewallet.getMoney(),253.0);
-
 
     }
 

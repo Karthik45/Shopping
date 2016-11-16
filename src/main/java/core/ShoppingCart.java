@@ -24,8 +24,8 @@ public class ShoppingCart {
     public double calculateTotalPrice() {//This calculate the total price of the selected item.
         double total = 0.0;
         for (Item item : getCart()) {
-            if(!item.isFree()){
-            total = total + item.getPrice();
+            if (!item.isFree()) {
+                total = total + item.getPrice();
             }
         }
         return total;
@@ -33,7 +33,7 @@ public class ShoppingCart {
 
     public void addItemToList(ItemType itemType, int quantity, double price) {
 
-        addFreeItemToCart(itemType,quantity);
+        addFreeItemToCart(itemType, quantity);
 
         for (int i = quantity; i > 0; i--) {
             Item item = new ItemsBuilder().withItems(itemType).withPrice(price).build();
@@ -51,14 +51,83 @@ public class ShoppingCart {
 
     private void addFreeItemToCart(ItemType itemType, int quantity) {
 
-        if(itemType.equals(ItemType.Milk)){
-        int freeQuantity = quantity / 2;
-        for (int i = freeQuantity; i > 0; i--) {
-            Item freeItem = new ItemsBuilder().withItems(itemType).withOffer(true).build();
-            cart.add(freeItem);
+        if (itemType.equals(ItemType.Milk)) {
+            int freeQuantity = quantity / 2;
+            for (int i = freeQuantity; i > 0; i--) {
+                Item freeItem = new ItemsBuilder().withItems(itemType).withOffer(true).build();
+                cart.add(freeItem);
+            }
         }
-      }
     }
+
+    public void removeItemFromList(ItemType itemType, int quantity) {
+        int paidItems = calculateItems(itemType, "paid");
+        int count = quantity;
+        if (count <= paidItems) {
+            removeItems(itemType, quantity,"paid");
+        }
+        if (itemType.equals(ItemType.Milk)) {
+            int offerItems = calculateItems(itemType, "free");
+            int finalOfferItems = (paidItems - count) / 2;
+            int remItems = (offerItems - finalOfferItems);
+            removeItems(itemType,remItems,"free");
+        }
+
+    }
+
+    private int calculateItems(ItemType itemType, String type) {
+        int count = 0;
+        if (type.equals("paid")) {
+            for (Item item : cart) {
+                if (item.getItemType().equals(itemType)) {
+                    if (!item.isFree()) {
+                        count++;
+                    }
+                }
+            }
+        } else if (type.equals("free")) {
+            for (Item item : cart) {
+                if (item.getItemType().equals(itemType)) {
+                    if (item.isFree()) {
+                        count++;
+                    }
+                }
+            }
+        }
+        return count;
+    }
+
+
+    private void removeItems(ItemType itemType, int quantity, String type) {
+        List<Item> tempCart = new ArrayList<Item>();
+        tempCart.addAll(cart);
+        if (type.equals("paid")) {
+            for (Item item : cart) {
+                if (item.getItemType().equals(itemType) && quantity > 0) {
+                    if (!item.isFree()) {
+                        int index = cart.indexOf(item);
+                        tempCart.remove(index);
+                        quantity--;
+                    }
+                }
+            }
+        } else if (type.equals("free")) {
+            for (Item item : cart) {
+                if (item.getItemType().equals(itemType) && quantity > 0) {
+                    if (item.isFree()) {
+                        int index = cart.indexOf(item);
+                        tempCart.remove(index);
+                        quantity--;
+                    }
+                }
+            }
+        }
+        cart.clear();
+        cart.addAll(tempCart);
+        tempCart.clear();
+    }
+
+
 }
 
 

@@ -15,10 +15,21 @@ public class Shopping {
     }
 
     public void addItemToCart(ItemType itemType, int quantity, double price) { //This method will add the item into cart.
-        if(quantity > 0)
-        shoppingCart.addItemToList(itemType, quantity, price);
-
+        if(quantity > 0) {
+            shoppingCart.addItemToList(itemType, quantity, price);
+        }
+        else
+            System.out.println("quantity should be more than zero");
     }
+
+    public void removeItemFromCart(ItemType itemType,int quantity) {
+        if(quantity >0){
+        shoppingCart.removeItemFromList(itemType,quantity);
+        }
+        else
+            System.out.println("quantity for removal should be more than zero");
+    }
+
     private double calculatePrice(){
       return shoppingCart.calculateTotalPrice();
     }
