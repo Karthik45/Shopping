@@ -71,14 +71,14 @@ public class ShoppingCart {
 
             cart.removeAll(tempCart.stream().limit(quantity).collect(Collectors.toList()));
 
-
-            if (itemType.equals(ItemType.Milk)) {
-
                 tempCart.clear();
                 tempCart = cart.stream().filter(item -> itemType.equals(item.getItemType()) && (item.isFree())).collect(Collectors.toList());
+                int offerQuantity = tempCart.size();
+
+            if (offerQuantity > 0) {
 
                 int finaloffer = (count - quantity) / 2;
-                int finalquantity = tempCart.size() - finaloffer;
+                int finalquantity = offerQuantity - finaloffer;
 
                 cart.removeAll(tempCart.stream().limit(finalquantity).collect(Collectors.toList()));
             }

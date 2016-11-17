@@ -92,8 +92,8 @@
       <file leaf-file-name="ShoppingCart.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/core/ShoppingCart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="82" column="68" selection-start-line="82" selection-start-column="68" selection-end-line="82" selection-end-column="68" />
+            <state relative-caret-position="368">
+              <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#263#264#0" expanded="true" />
@@ -124,9 +124,11 @@
       <file leaf-file-name="EwalletPromotionTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/EwalletPromotionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-435">
+            <state relative-caret-position="75">
               <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -390,62 +392,6 @@
     <property name="prop_add_unversioned_files" value="true" />
   </component>
   <component name="RunManager" selected="TestNG.RemovalOfItemsTest">
-    <configuration default="false" name="RemovalOfItemsTest.whenRemovalQuantityZero" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Code_Assessment" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RemovalOfItemsTest" />
-      <option name="METHOD_NAME" value="whenRemovalQuantityZero" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="RemovalOfItemsTest.removeItemsForEvenMilks" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Code_Assessment" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RemovalOfItemsTest" />
-      <option name="METHOD_NAME" value="removeItemsForEvenMilks" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
     <configuration default="false" name="RemovalOfItemsTest.removeItemForOddMilks" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Code_Assessment" />
@@ -513,6 +459,62 @@
       <option name="METHOD_NAME" value="whenRemovalQuantityIsMore" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="EwalletPromotionTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Code_Assessment" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EwalletPromotionTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="ShoppingPromotionTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Code_Assessment" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShoppingPromotionTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -945,19 +947,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.RemovalOfItemsTest.whenRemovalQuantityZero" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.RemovalOfItemsTest.removeItemsForEvenMilks" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.RemovalOfItemsTest.removeItemForOddMilks" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.RemovalOfItemsTest" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.RemovalOfItemsTest.whenRemovalQuantityIsMore" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.RemovalOfItemsTest.removeItemForOddMilks" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.RemovalOfItemsTest" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.RemovalOfItemsTest.whenRemovalQuantityIsMore" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.EwalletPromotionTest" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.ShoppingPromotionTest" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="TestNG.RemovalOfItemsTest" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.RemovalOfItemsTest.whenRemovalQuantityIsMore" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.RemovalOfItemsTest.removeItemForOddMilks" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.RemovalOfItemsTest.whenRemovalQuantityZero" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.RemovalOfItemsTest.removeItemsForEvenMilks" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.RemovalOfItemsTest.removeItemForOddMilks" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.ShoppingPromotionTest" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.EwalletPromotionTest" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.RemovalOfItemsTest.whenRemovalQuantityIsMore" />
       </list>
     </recent_temporary>
   </component>
@@ -974,16 +976,13 @@
       <workItem from="1478600297215" duration="11302000" />
       <workItem from="1478692311496" duration="39686000" />
       <workItem from="1478886015520" duration="9637000" />
-      <workItem from="1479209237173" duration="33613000" />
+      <workItem from="1479209237173" duration="34570000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RemovalOfItemsTest - 2016.11.17 at 14h 44m 59s.xml">
-      <configuration name="RemovalOfItemsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RemovalOfItemsTest - 2016.11.17 at 14h 50m 06s.xml">
-      <configuration name="RemovalOfItemsTest" configurationId="TestNG" />
+    <history-entry file="EwalletPromotionTest - 2016.11.17 at 15h 48m 04s.xml">
+      <configuration name="EwalletPromotionTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="RemovalOfItemsTest - 2016.11.17 at 14h 57m 06s.xml">
       <configuration name="RemovalOfItemsTest" configurationId="TestNG" />
@@ -994,11 +993,8 @@
     <history-entry file="RemovalOfItemsTest - 2016.11.17 at 15h 40m 37s.xml">
       <configuration name="RemovalOfItemsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RemovalOfItemsTest_removeItemForOddMilks - 2016.11.17 at 14h 49m 49s.xml">
-      <configuration name="RemovalOfItemsTest.removeItemForOddMilks" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RemovalOfItemsTest_removeItemForOddMilks - 2016.11.17 at 14h 49m 59s.xml">
-      <configuration name="RemovalOfItemsTest.removeItemForOddMilks" configurationId="TestNG" />
+    <history-entry file="RemovalOfItemsTest - 2016.11.17 at 16h 01m 48s.xml">
+      <configuration name="RemovalOfItemsTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="RemovalOfItemsTest_removeItemForOddMilks - 2016.11.17 at 14h 57m 01s.xml">
       <configuration name="RemovalOfItemsTest.removeItemForOddMilks" configurationId="TestNG" />
@@ -1006,12 +1002,18 @@
     <history-entry file="RemovalOfItemsTest_removeItemForOddMilks - 2016.11.17 at 15h 01m 10s.xml">
       <configuration name="RemovalOfItemsTest.removeItemForOddMilks" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="RemovalOfItemsTest_removeItemForOddMilks - 2016.11.17 at 16h 00m 33s.xml">
+      <configuration name="RemovalOfItemsTest.removeItemForOddMilks" configurationId="TestNG" />
+    </history-entry>
     <history-entry file="RemovalOfItemsTest_whenRemovalQuantityIsMore - 2016.11.17 at 15h 25m 35s.xml">
       <configuration name="RemovalOfItemsTest.whenRemovalQuantityIsMore" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ShoppingPromotionTest - 2016.11.17 at 15h 48m 12s.xml">
+      <configuration name="ShoppingPromotionTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94238000" />
+    <option name="totallyTimeSpent" value="95195000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -1189,7 +1191,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
           <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1397,24 +1401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/EwalletPromotionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-435">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ShoppingPromotionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/core/Item.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1443,6 +1429,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ShoppingPromotionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/EwalletPromotionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RemovalOfItemsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1455,8 +1461,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/core/ShoppingCart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="82" column="68" selection-start-line="82" selection-start-column="68" selection-end-line="82" selection-end-column="68" />
+        <state relative-caret-position="368">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#263#264#0" expanded="true" />
