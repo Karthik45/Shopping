@@ -68,9 +68,9 @@ public class ShoppingCart {
         count = tempCart.size();
 
         if (quantity < count) {
-            for (int i = quantity; i > 0; i--) {
-                cart.remove(tempCart.get(i));
-            }
+
+            cart.removeAll(tempCart.stream().limit(quantity).collect(Collectors.toList()));
+
 
             if (itemType.equals(ItemType.Milk)) {
 
@@ -80,9 +80,7 @@ public class ShoppingCart {
                 int finaloffer = (count - quantity) / 2;
                 int finalquantity = tempCart.size() - finaloffer;
 
-                for (int i = finalquantity; i > 0; i--) {
-                    cart.remove(tempCart.get(i));
-                }
+                cart.removeAll(tempCart.stream().limit(finalquantity).collect(Collectors.toList()));
             }
         }
         else
