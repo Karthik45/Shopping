@@ -7,7 +7,7 @@ public class Item {
 
     private ItemType itemType;
     private Double price;
-    boolean isFree;
+    private boolean isFree;
 
     public void setFree(boolean free) {
         isFree = free;
@@ -32,7 +32,5 @@ public class Item {
     public Double getPrice() {
         return price;
     }
-
-    public Item(){}
 
 }

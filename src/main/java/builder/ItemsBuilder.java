@@ -1,4 +1,4 @@
-package Builder;
+package builder;
 
 
 import core.Item;
@@ -6,9 +6,10 @@ import resources.ItemType;
 
 public class ItemsBuilder {
 
-    Item item = new Item();
+    Item item;
 
     public ItemsBuilder(){
+        item = new Item();
         item.setItemType(ItemType.APPLE);
         item.setPrice(0.0);
     }

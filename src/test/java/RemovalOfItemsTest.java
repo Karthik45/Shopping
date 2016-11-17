@@ -3,7 +3,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import resources.ItemType;
 
-public class removalOfItemsTest {
+public class RemovalOfItemsTest {
 
     @Test
     public void removeItemForOddMilks()throws Exception {//Test for odd milks when 1 milk is deleted no offer milks be deleted
@@ -17,7 +17,7 @@ public class removalOfItemsTest {
 
         shopping.removeItemFromCart(ItemType.Milk,1);
 
-        Assert.assertEquals(shopping.shoppingCart.getNoOfItems(), 11);
+       Assert.assertEquals(shopping.shoppingCart.getNoOfItems(), 11);
 
         shopping.payMoney();
 
@@ -75,6 +75,24 @@ public class removalOfItemsTest {
         }
         catch (Exception e) {
              System.out.println(e);
+        }
+    }
+
+    @Test
+    public void whenRemovalQuantityIsMore()throws Exception{ //when removal quantity is more
+        Shopping shopping = new Shopping(500.0);
+
+        try {
+            shopping.addItemToCart(ItemType.APPLE, 5, 20.0);
+
+            shopping.addItemToCart(ItemType.Milk, 4, 15.0);
+
+            shopping.removeItemFromCart(ItemType.APPLE, 7);
+
+            shopping.payMoney();
+        }
+        catch (Exception e) {
+            System.out.println(e);
         }
     }
 }

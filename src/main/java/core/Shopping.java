@@ -24,10 +24,11 @@ public class Shopping {
 
     public void removeItemFromCart(ItemType itemType,int quantity)throws Exception {
         if (quantity > 0) {
-                shoppingCart.removeItemFromList(itemType, quantity);
+                shoppingCart.removeItemsFromList(itemType, quantity);
             }
            else
                throw new Exception(String.format("Removal Items should be more than zero"));
+
     }
 
     private double calculatePrice(){
@@ -39,7 +40,7 @@ public class Shopping {
         double total;
         total = calculatePrice();
 
-        if(ewallet.checkCustomerCanPay(total)){  //if we have sufficent money to pay our bills in E-wallet then we can pay.
+        if(ewallet.hasEnoughMoney(total)){  //if we have sufficent money to pay our bills in E-wallet then we can pay.
             System.out.println(total);
             ewallet.deductMoney(total);
             System.out.println("Payment Successful" );

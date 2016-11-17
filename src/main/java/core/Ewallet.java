@@ -24,7 +24,7 @@ public class Ewallet {
         money = money-(dedmoney - getDiscount(dedmoney));
     }
 
-    public boolean checkCustomerCanPay(double cost){
+    public boolean hasEnoughMoney(double cost){
         return money<cost ? false : true ;
     }
 

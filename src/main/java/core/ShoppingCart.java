@@ -1,12 +1,12 @@
 package core;
 
 
-import Builder.ItemsBuilder;
+import builder.ItemsBuilder;
 import resources.ItemType;
+import java.util.*;
+import java.util.stream.*;
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
 import java.util.List;
 
 public class ShoppingCart {
@@ -33,7 +33,7 @@ public class ShoppingCart {
 
     public void addItemToList(ItemType itemType, int quantity, double price) {
 
-        addFreeItemToCart(itemType, quantity);
+        addFreeItemToCart(itemType, quantity); //Adding Free items to cart.
 
         for (int i = quantity; i > 0; i--) {
             Item item = new ItemsBuilder().withItems(itemType).withPrice(price).build();
@@ -60,67 +60,32 @@ public class ShoppingCart {
         }
     }
 
-    public void removeItemFromList(ItemType itemType, int quantity) {
-        int paidItems = calculateItems(itemType, "paid");
-        int count = quantity;
-        if (count <= paidItems) {
-            removeItems(itemType, quantity,"paid");
-        }
-        if (itemType.equals(ItemType.Milk)) {
-            int offerItems = calculateItems(itemType, "free");
-            int finalOfferItems = (paidItems - count) / 2;
-            int remItems = (offerItems - finalOfferItems);
-            removeItems(itemType,remItems,"free");
-        }
+    public void removeItemsFromList(ItemType itemType, int quantity)throws Exception {
 
-    }
+        int count;
 
-    private int calculateItems(ItemType itemType, String type) {
-        int count = 0;
-        if (type.equals("paid")) {
-            for (Item item : cart) {
-                if (item.getItemType().equals(itemType)) {
-                    if (!item.isFree()) {
-                        count++;
-                    }
-                }
+        List<Item> tempCart = cart.stream().filter(item -> itemType.equals(item.getItemType()) && (!item.isFree())).collect(Collectors.toList());
+        count = tempCart.size();
+
+        if (quantity < count) {
+            for (int i = quantity; i > 0; i--) {
+                cart.remove(tempCart.get(i));
             }
-        } else if (type.equals("free")) {
-            for (Item item : cart) {
-                if (item.getItemType().equals(itemType)) {
-                    if (item.isFree()) {
-                        count++;
-                    }
+
+            if (itemType.equals(ItemType.Milk)) {
+
+                tempCart.clear();
+                tempCart = cart.stream().filter(item -> itemType.equals(item.getItemType()) && (item.isFree())).collect(Collectors.toList());
+
+                int finaloffer = (count - quantity) / 2;
+                int finalquantity = tempCart.size() - finaloffer;
+
+                for (int i = finalquantity; i > 0; i--) {
+                    cart.remove(tempCart.get(i));
                 }
             }
         }
-        return count;
-    }
-
-
-    private void removeItems(ItemType itemType, int quantity, String type) {
-        List<Item> tempCart = new ArrayList<Item>();
-        if (type.equals("paid")) {
-            for (Item item : cart) {
-                if (item.getItemType().equals(itemType) && quantity > 0) {
-                    if (!item.isFree()) {
-                        tempCart.add(item);
-                        quantity--;
-                    }
-                }
-            }
-        } else if (type.equals("free")) {
-            for (Item item : cart) {
-                if (item.getItemType().equals(itemType) && quantity > 0) {
-                    if (item.isFree()) {
-                        tempCart.add(item);
-                        quantity--;
-                    }
-                }
-            }
-        }
-        cart.removeAll(tempCart);
+        else
+            throw new Exception(String.format("The list has less number of Items"));
     }
 }
-
-
