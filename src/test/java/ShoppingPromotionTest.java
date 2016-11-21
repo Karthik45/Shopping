@@ -12,7 +12,7 @@ public class ShoppingPromotionTest {
 
         shopping.addItemToCart(ItemType.Milk, 5, 15.0 );
 
-        Assert.assertEquals(shopping.shoppingCart.getNoOfItems(), 7);
+        Assert.assertEquals(shopping.getCartSize(), 7);
 
         shopping.payMoney();
 
@@ -27,7 +27,7 @@ public class ShoppingPromotionTest {
 
         shopping.addItemToCart(ItemType.Milk, 4, 15.0);
 
-        Assert.assertEquals(shopping.shoppingCart.getNoOfItems(), 6);
+        Assert.assertEquals(shopping.getCartSize(), 6);
 
         shopping.payMoney();
 
@@ -42,7 +42,7 @@ public class ShoppingPromotionTest {
 
         shopping.addItemToCart(ItemType.Milk, 1, 15.0 );
 
-        Assert.assertEquals(shopping.shoppingCart.getNoOfItems(), 1);
+        Assert.assertEquals(shopping.getCartSize(), 1);
 
         shopping.payMoney();
 

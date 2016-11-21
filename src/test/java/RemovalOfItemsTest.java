@@ -17,7 +17,7 @@ public class RemovalOfItemsTest {
 
         shopping.removeItemFromCart(ItemType.Milk,1);
 
-       Assert.assertEquals(shopping.shoppingCart.getNoOfItems(), 11);
+       Assert.assertEquals(shopping.getCartSize(), 11);
 
         shopping.payMoney();
 
@@ -36,7 +36,7 @@ public class RemovalOfItemsTest {
 
         shopping.removeItemFromCart(ItemType.Milk,1);
 
-        Assert.assertEquals(shopping.shoppingCart.getNoOfItems(), 9);
+        Assert.assertEquals(shopping.getCartSize(), 9);
 
         shopping.payMoney();
 
@@ -53,7 +53,7 @@ public class RemovalOfItemsTest {
 
         shopping.removeItemFromCart(ItemType.APPLE,5);
 
-        Assert.assertEquals(shopping.shoppingCart.getNoOfItems(), 11);
+        Assert.assertEquals(shopping.getCartSize(), 11);
 
         shopping.payMoney();
 
