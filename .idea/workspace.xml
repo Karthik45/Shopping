@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2f615b4-d13f-455f-b873-b52779e6e749" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/core/PromotionsService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/core/Ewallet.class" afterPath="$PROJECT_DIR$/target/classes/core/Ewallet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/core/Shopping.class" afterPath="$PROJECT_DIR$/target/classes/core/Shopping.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/core/ShoppingCart.class" afterPath="$PROJECT_DIR$/target/classes/core/ShoppingCart.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/EwalletPromotionTest.class" afterPath="$PROJECT_DIR$/target/test-classes/EwalletPromotionTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/RemovalOfItemsTest.class" afterPath="$PROJECT_DIR$/target/test-classes/RemovalOfItemsTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/ShoppingPromotionTest.class" afterPath="$PROJECT_DIR$/target/test-classes/ShoppingPromotionTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/core/Ewallet.java" afterPath="$PROJECT_DIR$/src/main/java/core/Ewallet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/core/Shopping.java" afterPath="$PROJECT_DIR$/src/main/java/core/Shopping.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/core/ShoppingCart.java" afterPath="$PROJECT_DIR$/src/main/java/core/ShoppingCart.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/EwalletPromotionTest.java" afterPath="$PROJECT_DIR$/src/test/java/EwalletPromotionTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/RemovalOfItemsTest.java" afterPath="$PROJECT_DIR$/src/test/java/RemovalOfItemsTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ShoppingPromotionTest.java" afterPath="$PROJECT_DIR$/src/test/java/ShoppingPromotionTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/core/PromotionsService.java" afterPath="$PROJECT_DIR$/src/main/java/core/PromotionsService.java" />
     </list>
     <ignored path="Code_Assessment.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PromotionsService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PromotionsService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/core/PromotionsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+            <state relative-caret-position="795">
+              <caret line="53" column="77" selection-start-line="53" selection-start-column="77" selection-end-line="53" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,7 +97,7 @@
       <file leaf-file-name="ShoppingCart.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/core/ShoppingCart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
+            <state relative-caret-position="240">
               <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -120,38 +107,6 @@
                 <element signature="e#568#569#0" expanded="true" />
                 <element signature="e#595#596#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RemovalOfItemsTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/RemovalOfItemsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EwalletPromotionTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/EwalletPromotionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShoppingPromotionTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ShoppingPromotionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -192,8 +147,8 @@
         <option value="$PROJECT_DIR$/src/main/java/core/Shopping.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/ShoppingCart.java" />
         <option value="$PROJECT_DIR$/src/test/java/RemovalOfItemsTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/core/PromotionsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/Ewallet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/PromotionsService.java" />
       </list>
     </option>
   </component>
@@ -815,9 +770,9 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="TestNG.ShoppingPromotionTest" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.ShoppingPromotionTest.checkForOddPackets" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.EwalletPromotionTest" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.RemovalOfItemsTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.EwalletPromotionTest" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.RemovalOfItemsTest" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.ShoppingPromotionTest.checkForOddPackets" />
         <item index="4" class="java.lang.String" itemvalue="TestNG.RemovalOfItemsTest.removeItemForOddMilks" />
       </list>
     </recent_temporary>
@@ -845,8 +800,8 @@
     <history-entry file="EwalletPromotionTest - 2016.11.21 at 12h 02m 08s.xml">
       <configuration name="EwalletPromotionTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RemovalOfItemsTest - 2016.11.21 at 11h 55m 45s.xml">
-      <configuration name="RemovalOfItemsTest" configurationId="TestNG" />
+    <history-entry file="EwalletPromotionTest - 2016.11.21 at 12h 38m 24s.xml">
+      <configuration name="EwalletPromotionTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="RemovalOfItemsTest - 2016.11.21 at 11h 56m 17s.xml">
       <configuration name="RemovalOfItemsTest" configurationId="TestNG" />
@@ -860,13 +815,13 @@
     <history-entry file="RemovalOfItemsTest - 2016.11.21 at 12h 02m 03s.xml">
       <configuration name="RemovalOfItemsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RemovalOfItemsTest_removeItemForOddMilks - 2016.11.21 at 11h 55m 14s.xml">
-      <configuration name="RemovalOfItemsTest.removeItemForOddMilks" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RemovalOfItemsTest_removeItemForOddMilks - 2016.11.21 at 11h 55m 20s.xml">
-      <configuration name="RemovalOfItemsTest.removeItemForOddMilks" configurationId="TestNG" />
+    <history-entry file="RemovalOfItemsTest - 2016.11.21 at 12h 38m 18s.xml">
+      <configuration name="RemovalOfItemsTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="ShoppingPromotionTest - 2016.11.21 at 12h 02m 21s.xml">
+      <configuration name="ShoppingPromotionTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ShoppingPromotionTest - 2016.11.21 at 12h 38m 30s.xml">
       <configuration name="ShoppingPromotionTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="ShoppingPromotionTest_checkForOddPackets - 2016.11.21 at 12h 02m 15s.xml">
@@ -888,11 +843,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.05381166" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.05381166" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23981553" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2528824" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940239" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -949,14 +904,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/RemovalOfItemsTest.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="29" />
     </breakpoint-manager>
     <watches-manager />
@@ -1404,31 +1351,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/PromotionsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/ShoppingCart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/core/Shopping.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1451,8 +1373,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RemovalOfItemsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1472,6 +1394,31 @@
         <state relative-caret-position="30">
           <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/ShoppingCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/PromotionsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="77" selection-start-line="53" selection-start-column="77" selection-end-line="53" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

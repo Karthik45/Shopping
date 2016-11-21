@@ -8,17 +8,13 @@ import java.util.stream.Collectors;
 
 public class PromotionsService {
 
-    public ShoppingCart shoppingCart;
-
     public List<Item> applyPromotions(ShoppingCart shoppingCart) {
-
-        this.shoppingCart = shoppingCart;
 
         List<Item> cart = shoppingCart.getCart();
 
         applyBuy2Get1FreeMilkPromotion(cart);
 
-        apply5PercentOffOnSumGreaterThan99();
+        apply5PercentOffOnSumGreaterThan99(shoppingCart);
 
         return cart;
     }
@@ -55,7 +51,7 @@ public class PromotionsService {
     }
 
 
-    private void apply5PercentOffOnSumGreaterThan99() {
+    private void apply5PercentOffOnSumGreaterThan99(ShoppingCart shoppingCart) {
 
         double total = 0.0, totalAfterDiscount=0.0;
 
